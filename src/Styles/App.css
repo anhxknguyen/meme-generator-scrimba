@@ -35,6 +35,13 @@ html, body{
 }
 
 .meme-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.meme-form{
     margin: 30px 100px;
     display: flex;
     flex-direction: column;
@@ -79,4 +86,11 @@ html, body{
     cursor: pointer;
     border-color: black;
     border-width: 2px;
+}
+
+.meme-image{
+    max-height: 500px;
+    max-width: 100%;
+    align-self: center;
+    
 }
